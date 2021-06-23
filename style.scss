@@ -1,0 +1,47 @@
+li{
+    list-style: none;
+}
+
+main{
+    width:80%;
+    margin:0 auto;
+}
+
+section{
+    text-align:center;
+    margin: 40px 0;
+}
+
+.inIcon{
+    width:20%;
+    margin:20px 0;
+}
+
+button{
+    margin-top:20px;
+    padding:10px 40px;
+    border-radius: 15px;
+    border:none;
+    color: #fff;
+    cursor: pointer;
+    // background:orange;
+    background: rgb(163, 163, 163);
+}
+
+.out{
+    margin-top:20px;
+    display:flex;
+    &__list{
+        margin:20px 15px 0 0 ;
+        & img{
+            width:80px;
+        }
+        & p{
+            text-align:center;
+        }
+        & span{
+            background: rgb(255, 129, 129);
+            padding:2px 4px;
+        }
+    }
+}

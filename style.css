@@ -1,0 +1,53 @@
+li {
+  list-style: none;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.inIcon {
+  width: 20%;
+  margin: 20px 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background: #a3a3a3;
+}
+
+.out {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.out__list {
+  margin: 20px 15px 0 0;
+}
+
+.out__list img {
+  width: 80px;
+}
+
+.out__list p {
+  text-align: center;
+}
+
+.out__list span {
+  background: #ff8181;
+  padding: 2px 4px;
+}
+/*# sourceMappingURL=style.css.map */
