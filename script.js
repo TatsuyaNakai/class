@@ -24,7 +24,7 @@ class Character{
     }
 }
 
-// 作成するボタンの処理
+// メインの処理
 outBtn.addEventListener('click', function(){
     if(ul.childElementCount <=6){
         
