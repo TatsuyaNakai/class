@@ -24,8 +24,10 @@ button{
     border:none;
     color: #fff;
     cursor: pointer;
-    // background:orange;
     background: rgb(163, 163, 163);
+}
+.none{
+    pointer-events: none;
 }
 
 .out{
@@ -33,6 +35,7 @@ button{
     display:flex;
     &__list{
         margin:20px 15px 0 0 ;
+        position: relative;
         & img{
             width:80px;
         }

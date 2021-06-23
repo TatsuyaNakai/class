@@ -17,34 +17,32 @@
             <div id="info">
                 <div class="name">
                     キャラクター名
-                    <input type="text">
+                    <input id="name" type="text">
                 </div>
                 <div class="gender">
-                    <label for="">
-                        <input type="checkbox">
-                        男性
-                    </label>
-                    <label for="">
-                        <input type="checkbox">
-                        女性
-                    </label>
+                    <form name="m_f">
+                        <label for="">男性</label>
+                        <input id="men" type="checkbox">
+                        <label for="">女性</label>
+                        <input id="women" type="checkbox">
+                    </form>
                 </div>
             </div>
-            <button>作成する</button>
+            <button class="none">作成する</button>
         </section>
         <section>
             <h1 class="title">出力結果</h1>
             <ul class="out">
-                <li class="out__list">
+                <!-- <li class="out__list">
                     <img src="images/women.png" alt="">
                     <p>ピカチュウ</p>
-                    <span>削除</span>
+                    <span class="trash">削除</span>
                 </li>
                 <li class="out__list">
-                    <img src="images/women.png" alt="">
+                    <img src="images/men.png" alt="">
                     <p>ピカチュウ</p>
-                    <span>削除</span>
-                </li>
+                    <span class="trash">削除</span>
+                </li> -->
 
             </ul>
         </section>

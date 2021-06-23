@@ -27,6 +27,10 @@ button {
   background: #a3a3a3;
 }
 
+.none {
+  pointer-events: none;
+}
+
 .out {
   margin-top: 20px;
   display: -webkit-box;
@@ -36,6 +40,7 @@ button {
 
 .out__list {
   margin: 20px 15px 0 0;
+  position: relative;
 }
 
 .out__list img {
